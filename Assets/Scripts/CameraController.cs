@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    Vector3 target;
+    public Vector3 target;
     public float interpolatation;
     // Start is called before the first frame update
     void Start()
